@@ -1,0 +1,6 @@
+{
+	"criteria": { "tick": {
+		"trigger": "minecraft:tick"
+	}},
+	"rewards": { "function": "droid_uhc_addon_1_21:z_abilities/hephaestus_spear_cooldown" }
+}

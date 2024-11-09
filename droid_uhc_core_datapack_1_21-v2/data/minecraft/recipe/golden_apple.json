@@ -1,0 +1,23 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "GGG",
+      "GAG",
+      "GGG"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:gold_ingot"
+      },
+      "A": {
+        "item": "minecraft:apple"
+      }
+    },
+    "result": {
+      "id": "minecraft:golden_apple",
+      "components": {
+        "minecraft:custom_model_data": 801103
+      }
+    }
+  }
+  

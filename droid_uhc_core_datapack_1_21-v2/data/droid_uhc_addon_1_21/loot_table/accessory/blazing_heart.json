@@ -1,0 +1,38 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_cat",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "rare",
+                  "!minecraft:jukebox_playable": {},
+                  "minecraft:custom_data": {"blazing_heart":true},
+                  "minecraft:custom_model_data": 801085,
+                  "minecraft:item_name": "{\"text\":\"♦ Accessory: Blazing Heart ♦\",\"color\":\"gold\"}",
+                  "minecraft:lore": [
+                    "[{\"text\":\"Slot: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Offhand\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Effect: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Fire Resistance\",\"color\":\"red\",\"italic\":false}]",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"A Buring heart of ethernal\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"fire grants the user\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"immunity to Fire.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Legendary Accessory\",\"color\":\"gold\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

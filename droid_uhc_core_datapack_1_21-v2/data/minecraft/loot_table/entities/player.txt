@@ -1,0 +1,1 @@
+{"pools":[{"rolls":1,"entries":[{"type":"minecraft:loot_table","value":"droid_uhc_addon_1_21:entities/player"}]}]}

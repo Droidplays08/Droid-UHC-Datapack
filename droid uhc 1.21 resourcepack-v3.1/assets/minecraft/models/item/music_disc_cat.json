@@ -1,0 +1,110 @@
+{
+  "parent": "minecraft:item/template_music_disc",
+  "textures": {
+    "layer0": "minecraft:item/music_disc_cat"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 801016
+      },
+      "model": "minecraft:item/legendary_weapon/zeus_blowgun"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801043
+      },
+      "model": "minecraft:item/legendary_weapon/wind_cannon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801080
+      },
+      "model": "minecraft:item/accessory/dragon_tooth"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801081
+      },
+      "model": "minecraft:item/accessory/dragon_claw"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801082
+      },
+      "model": "minecraft:item/accessory/rabbit_legs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801083
+      },
+      "model": "minecraft:item/accessory/frog_legs"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801084
+      },
+      "model": "minecraft:item/accessory/scroll_of_hermes"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801085
+      },
+      "model": "minecraft:item/accessory/blazing_heart"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801086
+      },
+      "model": "minecraft:item/accessory/longreach_gauntlet"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801087
+      },
+      "model": "minecraft:item/accessory/wave_runner"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801088
+      },
+      "model": "minecraft:item/accessory/excavator_amulet"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801089
+      },
+      "model": "minecraft:item/accessory/feather_charm"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801090
+      },
+      "model": "minecraft:item/accessory/glidewalker_amulet"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801091
+      },
+      "model": "minecraft:item/accessory/cloudwalker_blessing"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801092
+      },
+      "model": "minecraft:item/accessory/farmer_hoe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801093
+      },
+      "model": "minecraft:item/accessory/swiftstrike_gem"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801094
+      },
+      "model": "minecraft:item/accessory/random_accessory"
+    }
+  ]
+}

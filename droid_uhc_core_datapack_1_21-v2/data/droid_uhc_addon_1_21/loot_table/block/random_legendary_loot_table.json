@@ -1,0 +1,849 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "epic",
+                  "minecraft:unbreakable": {
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:custom_model_data": 801011,
+                  "minecraft:custom_data": {"hades_cleaver":true},
+                  "minecraft:item_name": "[{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true},{\"text\":\" Hades' Cleaver \",\"color\":\"gold\",\"obfuscated\":false},{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true}]",
+                  "minecraft:lore": [
+                    "[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"9\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Attack Speed: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"1\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Attack Range: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"4\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Attack Knockback: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"1\",\"color\":\"red\",\"italic\":false}]",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"A Cleaver only suited for the\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"corrupt underworld.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Ability: Underworld Slash\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}",
+                    "[{\"text\":\"Right Click\",\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\" to perform a spin\",\"color\":\"gray\",\"italic\":false,\"bold\":false}]",
+                    "{\"text\":\"attack, damaging all entities\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"within a 5 block radius.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"cooldown 30s\",\"color\":\"dark_gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Legendary Weapon\",\"color\":\"gold\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:food": {
+                    "nutrition": 0,
+                    "saturation": 0,
+                    "can_always_eat": true,
+                    "eat_seconds": 100000
+                  },
+                  "minecraft:attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "attack_knockback",
+                        "type": "minecraft:generic.attack_knockback",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "entity_interaction_range",
+                        "type": "minecraft:player.entity_interaction_range",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "attack_speed",
+                        "type": "minecraft:generic.attack_speed",
+                        "amount": -3,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "attack_damage",
+                        "type": "minecraft:generic.attack_damage",
+                        "amount": 8,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      }
+                    ],
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_axe",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "epic",
+                  "minecraft:item_name": "[{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true},{\"text\":\" Giant's Battle Axe \",\"color\":\"gold\",\"obfuscated\":false},{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true}]",
+                  "minecraft:unbreakable": {
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:tool": {
+                    "rules": [
+                      {
+                        "blocks": "#minecraft:mineable/axe",
+                        "speed": 40,
+                        "correct_for_drops": true
+                      }
+                    ]
+                  },
+                  "minecraft:attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "attack_speed",
+                        "type": "minecraft:generic.attack_speed",
+                        "amount": -3.2,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "attack_damage",
+                        "type": "minecraft:generic.attack_damage",
+                        "amount": 11,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      }
+                    ],
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:custom_model_data": 801010,
+                  "minecraft:food": {
+                    "nutrition": 0,
+                    "saturation": 0,
+                    "can_always_eat": true,
+                    "eat_seconds": 100000
+                  },
+                  "minecraft:lore": [
+                    "[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"12\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Attack Speed: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"0.8\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Tool: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Axe\",\"color\":\"red\",\"italic\":false}]",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"An Axe passed down from ancient\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"civilisation of Giants.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Ability: Titan's Fury\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}",
+                    "[{\"text\":\"Right Click\",\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\" to turn into a\",\"color\":\"gray\",\"italic\":false,\"bold\":false}]",
+                    "{\"text\":\"Giant. While being a Giant:\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"- Extra Absorption Hearts\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"- Increased Damage & Defence\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"- Increased Speed\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"- Increased Jump & Step Height\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"- STEP on Entities or other\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"players to damage them.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"This ability last for\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"10 seconds.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"cooldown 100s\",\"color\":\"dark_gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Legendary Weapon\",\"color\":\"gold\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:custom_data": {"giant_battle_axe":true},
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_cat",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "epic",
+                  "!minecraft:jukebox_playable": {},
+                  "minecraft:food": {
+                    "nutrition": 0,
+                    "saturation": 0,
+                    "can_always_eat": true,
+                    "eat_seconds": 100000
+                  },
+                  "minecraft:custom_data": {"zeus_blowgun":true},
+                  "minecraft:custom_model_data": 801016,
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:item_name": "[{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true},{\"text\":\"Zeus' Blowgun\",\"color\":\"gold\",\"obfuscated\":false},{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true}]",
+                  "minecraft:lore": [
+                    "{\"text\":\"A Blowgun that arrived to Earth\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"through Thunder.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Ability: Thunderbolt\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}",
+                    "[{\"text\":\"Right Click\",\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\" to instantly fire\",\"color\":\"gray\",\"italic\":false,\"bold\":false}]",
+                    "{\"text\":\"an arrow, summoning lightning\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"where the arrow landed or on\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"the target it hit.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"cooldown 20s\",\"color\":\"dark_gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Legendary Weapon\",\"color\":\"gold\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:stone_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "epic",
+                  "minecraft:unbreakable": {
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:custom_data": {"mercury_dagger":true},
+                  "minecraft:custom_model_data": 801015,
+                  "minecraft:item_name": "[{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true},{\"text\":\" Mercury's Dagger \",\"color\":\"gold\",\"obfuscated\":false},{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true}]",
+                  "minecraft:lore": [
+                    "[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"7\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Attack Speed: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"2\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Attack Range: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"2\",\"color\":\"red\",\"italic\":false}]",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"A blade forged under starlight,\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"granting its wielder unmatched\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"speed and agility.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Ability: Trickster's Cloak\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}",
+                    "[{\"text\":\"Right Click\",\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\" to create\",\"color\":\"gray\",\"italic\":false,\"bold\":false}]",
+                    "{\"text\":\"a cloud of smoke and gain:\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"- Invisibility (0:15)\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"- Speed III (0:15)\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"- Turns you TINY so enemies\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"cannot hit you easily.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"This ability last for 15 seconds.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"cooldown 90s\",\"color\":\"dark_gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Legendary Weapon\",\"color\":\"gold\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:food": {
+                    "nutrition": 0,
+                    "saturation": 0,
+                    "can_always_eat": true,
+                    "eat_seconds": 100000
+                  },
+                  "minecraft:attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "entity_interaction_range",
+                        "type": "minecraft:player.entity_interaction_range",
+                        "amount": -1,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "attack_speed",
+                        "type": "minecraft:generic.attack_speed",
+                        "amount": -2,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "attack_damage",
+                        "type": "minecraft:generic.attack_damage",
+                        "amount": 6,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      }
+                    ],
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "epic",
+                  "minecraft:custom_data": {"divine_master_sword":true},
+                  "minecraft:custom_model_data": 801013,
+                  "minecraft:food": {
+                    "nutrition": 0,
+                    "saturation": 0,
+                    "can_always_eat": true,
+                    "eat_seconds": 100000
+                  },
+                  "minecraft:item_name": "[{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true},{\"text\":\" Divine Master Sword \",\"color\":\"gold\",\"obfuscated\":false},{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true}]",
+                  "minecraft:unbreakable": {
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:lore": [
+                    "[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"8\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Attack Speed: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"1.6\",\"color\":\"red\",\"italic\":false}]",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"The Legendary Sword that\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"seals the Darkness away.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Ability: Holy Light\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}",
+                    "[{\"text\":\"Right Click\",\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\" to gain:\",\"color\":\"gray\",\"italic\":false,\"bold\":false}]",
+                    "{\"text\":\"- Regeneration I (0:20)\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"- Absorption I (1:00)\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"- Strength I (0:20)\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"cooldown 90s\",\"color\":\"dark_gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Legendary Weapon\",\"color\":\"gold\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "attack_damage",
+                        "type": "minecraft:generic.attack_damage",
+                        "amount": 7,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "attack_speed",
+                        "type": "minecraft:generic.attack_speed",
+                        "amount": -2.4,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      }
+                    ],
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_pickaxe",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "!minecraft:tool": {},
+                  "minecraft:rarity": "epic",
+                  "minecraft:custom_data": {"hephaestus_spear":true},
+                  "minecraft:custom_model_data": 801014,
+                  "minecraft:item_name": "[{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true},{\"text\":\" Hephaestus' Spear \",\"color\":\"gold\",\"obfuscated\":false},{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true}]",
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:unbreakable": {
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:lore": [
+                    "[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"8\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Attack Speed: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"1.3\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Attack Range: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"4.5\",\"color\":\"red\",\"italic\":false}]",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"A Spear holding the mighty\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"power of fire and flame.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Ability: Molten Javelin\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}",
+                    "[{\"text\":\"Right Click\",\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\" to launch a\",\"color\":\"gray\",\"italic\":false,\"bold\":false}]",
+                    "{\"text\":\"fireball. The longer the\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"firebll absorb power from the\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"spear, the stronger the\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"fireball will be.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"cooldown 10s, 20s, 40s\",\"color\":\"dark_gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Passive Ability: Inferno\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}",
+                    "[{\"text\":\"Every \",\"color\":\"gray\",\"italic\":false,\"bold\":false},{\"text\":\"Hit\",\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\" on an entity has a\",\"color\":\"gray\",\"italic\":false,\"bold\":false}]",
+                    "{\"text\":\"30% chance to ignite them.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Legendary Weapon\",\"color\":\"gold\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:food": {
+                    "nutrition": 0,
+                    "saturation": 0,
+                    "can_always_eat": true,
+                    "eat_seconds": 100000
+                  },
+                  "minecraft:attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "attack_damage",
+                        "type": "minecraft:generic.attack_damage",
+                        "amount": 7,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "attack_speed",
+                        "type": "minecraft:generic.attack_speed",
+                        "amount": -2.7,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "entity_interation_range",
+                        "type": "minecraft:player.entity_interaction_range",
+                        "amount": 1.5,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      }
+                    ],
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:enchantments": {
+                    "levels": {
+                      "droid_uhc_addon_1_21:hephaestus_spear_fire": 1
+                    }
+                  },
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:diamond_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "epic",
+                  "minecraft:unbreakable": {
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:custom_data": {"spider_katana":true},
+                  "minecraft:custom_model_data": 801041,
+                  "minecraft:lore": [
+                    "[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"8\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Attack Speed: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"1.8\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Attack Knockback: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"0.5\",\"color\":\"red\",\"italic\":false}]",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"The Weapon that symbolises the\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"wielder as Leader of Spiders.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Ability: Arachnid's Trap\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}",
+                    "[{\"text\":\"Right Click\",\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\" to launch cobwebs\",\"color\":\"gray\",\"italic\":false,\"bold\":false}]",
+                    "{\"text\":\"forward, poisoning and trapping\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"anyone in front of you.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"cooldown 60s\",\"color\":\"dark_gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Legendary Weapon\",\"color\":\"gold\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:item_name": "[{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true},{\"text\":\" Spider Katana \",\"color\":\"gold\",\"obfuscated\":false},{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true}]",
+                  "minecraft:food": {
+                    "nutrition": 0,
+                    "saturation": 0,
+                    "can_always_eat": true,
+                    "eat_seconds": 100000
+                  },
+                  "minecraft:attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "attack_damage",
+                        "type": "minecraft:generic.attack_damage",
+                        "amount": 7,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "attack_speed",
+                        "type": "minecraft:generic.attack_speed",
+                        "amount": -2.2,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "attack_knockback",
+                        "type": "minecraft:generic.attack_knockback",
+                        "amount": 0.5,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      }
+                    ],
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "epic",
+                  "minecraft:unbreakable": {
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:food": {
+                    "nutrition": 0,
+                    "saturation": 0,
+                    "can_always_eat": true,
+                    "eat_seconds": 100000
+                  },
+                  "minecraft:custom_data": {"ender_blade":true},
+                  "minecraft:custom_model_data": 801040,
+                  "minecraft:item_name": "[{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true},{\"text\":\" Ender Blade \",\"color\":\"gold\",\"obfuscated\":false},{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true}]",
+                  "minecraft:lore": [
+                    "[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"8\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Attack Speed: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"1.6\",\"color\":\"red\",\"italic\":false}]",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"The Sword extracted from\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"another world, containing\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"powers of creatures in the void.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Ability: Instant Teleport\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}",
+                    "[{\"text\":\"Right Click\",\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\" to teleport up to\",\"color\":\"gray\",\"italic\":false,\"bold\":false}]",
+                    "{\"text\":\"15 blocks forward, or until\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"you hit a block.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"cooldown 30s\",\"color\":\"dark_gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Legendary Weapon\",\"color\":\"gold\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "attack_damage",
+                        "type": "minecraft:generic.attack_damage",
+                        "amount": 7,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "attack_speed",
+                        "type": "minecraft:generic.attack_speed",
+                        "amount": -2.4,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      }
+                    ],
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_pickaxe",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "epic",
+                  "minecraft:custom_data": {"frosted_spear":true},
+                  "minecraft:custom_model_data": 801042,
+                  "minecraft:food": {
+                    "nutrition": 0,
+                    "saturation": 0,
+                    "can_always_eat": true,
+                    "eat_seconds": 100000
+                  },
+                  "!minecraft:tool": {},
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:unbreakable": {
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:item_name": "[{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true},{\"text\":\" Frosted Spear \",\"color\":\"gold\",\"obfuscated\":false},{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true}]",
+                  "minecraft:lore": [
+                    "[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"8\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Attack Speed: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"1.3\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Attack Range: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"4.5\",\"color\":\"red\",\"italic\":false}]",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"A Spear consealed with power\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"of eternal winter.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Ability: Glacial Triple Shot\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}",
+                    "[{\"text\":\"Right Click\",\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\" to throw 3 spear,\",\"color\":\"gray\",\"italic\":false,\"bold\":false}]",
+                    "{\"text\":\"freezing anyone in its path.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"cooldown 40s\",\"color\":\"dark_gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Ability: Arctic Sentries\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}",
+                    "[{\"text\":\"Shift + Right Click\",\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\" to summon\",\"color\":\"gray\",\"italic\":false,\"bold\":false}]",
+                    "{\"text\":\"2 ice minions, which can help\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"combat in battle.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"They despawn after 15s.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"cooldown 60s\",\"color\":\"dark_gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Passive Ability: Frosted\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}",
+                    "{\"text\":\"Every Hit on an entity has a\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"40% chance to apply slowness\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"I or II for 1s.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Legendary Weapon\",\"color\":\"gold\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "attack_damage",
+                        "type": "minecraft:generic.attack_damage",
+                        "amount": 7,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "attack_speed",
+                        "type": "minecraft:generic.attack_speed",
+                        "amount": -2.7,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "entity_interaction_range",
+                        "type": "minecraft:player.entity_interaction_range",
+                        "amount": 1.5,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      }
+                    ],
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:enchantments": {
+                    "levels": {
+                      "droid_uhc_addon_1_21:frosted_spear_slowness": 1
+                    }
+                  },
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_cat",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "epic",
+                  "!minecraft:jukebox_playable": {},
+                  "minecraft:custom_data": {"wind_cannon":true},
+                  "minecraft:custom_model_data": 801043,
+                  "minecraft:food": {
+                    "nutrition": 0,
+                    "saturation": 0,
+                    "can_always_eat": true,
+                    "eat_seconds": 100000
+                  },
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:item_name": "[{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true},{\"text\":\" Wind Cannon \",\"color\":\"gold\",\"obfuscated\":false},{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true}]",
+                  "minecraft:lore": [
+                    "{\"text\":\"A cannon with the power to\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"control the wind.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Ability: Wind Dash\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}",
+                    "[{\"text\":\"Right Click\",\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\" to boost yourself\",\"color\":\"gray\",\"italic\":false,\"bold\":false}]",
+                    "{\"text\":\"forward with the power of wind.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"You are adviced not to jump\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"when using ability to increase\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"its effectiveness.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"cooldown 20s\",\"color\":\"dark_gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Ability: Tempest Uplift\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}",
+                    "[{\"text\":\"Shift + Right Click\",\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\" to launch\",\"color\":\"gray\",\"italic\":false,\"bold\":false}]",
+                    "{\"text\":\"3 tornado forward, any enemies\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"in contact will be launched\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"into the sky, dealing large\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"amount of fall damage.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"cooldown 60s\",\"color\":\"dark_gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Legendary Weapon\",\"color\":\"gold\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_axe",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "epic",
+                  "minecraft:custom_data": {"dragon_halberd":true},
+                  "minecraft:custom_model_data": 801044,
+                  "minecraft:food": {
+                    "nutrition": 0,
+                    "saturation": 0,
+                    "can_always_eat": true,
+                    "eat_seconds": 100000
+                  },
+                  "minecraft:item_name": "[{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true},{\"text\":\" Dragon Halberd \",\"color\":\"gold\",\"obfuscated\":false},{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true}]",
+                  "minecraft:unbreakable": {
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:lore": [
+                    "[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"10\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Attack Speed: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"0.9\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Attack Range: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"4\",\"color\":\"red\",\"italic\":false}]",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"An ancient weapon forged with\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"the spirit of the ender dragon.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Ability: Dragon's Roar\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}",
+                    "[{\"text\":\"Right Click\",\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\" to launch a dragon\",\"color\":\"gray\",\"italic\":false,\"bold\":false}]",
+                    "{\"text\":\"fireball, creating a lingering\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"dragon's breath on impact,\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"dealing damage to anyone\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"in contact.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"cooldown 30s\",\"color\":\"dark_gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Ability: Winged Repulse\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}",
+                    "[{\"text\":\"Shift + Right Click\",\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\" to create\",\"color\":\"gray\",\"italic\":false,\"bold\":false}]",
+                    "{\"text\":\"a sudden gust, launching all\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"entities away from you.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"cooldown 60s\",\"color\":\"dark_gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Legendary Weapon\",\"color\":\"gold\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "attack_damage",
+                        "type": "minecraft:generic.attack_damage",
+                        "amount": 9,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "attack_speed",
+                        "type": "minecraft:generic.attack_speed",
+                        "amount": -3.1,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "entity_interaction_range",
+                        "type": "minecraft:player.entity_interaction_range",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      }
+                    ],
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          },
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:netherite_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "epic",
+                  "minecraft:custom_data": {"pillage_broadsword":true},
+                  "minecraft:custom_model_data": 801045,
+                  "minecraft:food": {
+                    "nutrition": 0,
+                    "saturation": 0,
+                    "can_always_eat": true,
+                    "eat_seconds": 100000
+                  },
+                  "minecraft:item_name": "[{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true},{\"text\":\" Pillage Broadsword \",\"color\":\"gold\",\"obfuscated\":false},{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true}]",
+                  "minecraft:unbreakable": {
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:lore": [
+                    "[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"9\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Attack Speed: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"1.1\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Attack Range: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"4.2\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Attack Knockback: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"0.8\",\"color\":\"red\",\"italic\":false}]",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"The Sword that leads the Glory\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"of Illagers to Pillage the World.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Ability: Ravager Charge\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}",
+                    "[{\"text\":\"Right Click\",\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\" to fire a Ravager\",\"color\":\"gray\",\"italic\":false,\"bold\":false}]",
+                    "{\"text\":\"forward. The Ravager can\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"break leaf block in its path.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"Ravager will explode on Impact.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"cooldown 40s\",\"color\":\"dark_gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Ability: Illager Uprising\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}",
+                    "[{\"text\":\"Shift + Right Click\",\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\" to summon\",\"color\":\"gray\",\"italic\":false,\"bold\":false}]",
+                    "{\"text\":\"reinforcements from your allies.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"This can be a group of:\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"- Pillagers\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"- Vindicators\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"- Ravagers\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"This army will despawn after 20s.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"cooldown 120s\",\"color\":\"dark_gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Legendary Weapon\",\"color\":\"gold\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "attack_damage",
+                        "type": "minecraft:generic.attack_damage",
+                        "amount": 8,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "attack_speed",
+                        "type": "minecraft:generic.attack_speed",
+                        "amount": -2.9,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "entity_interaction_range",
+                        "type": "minecraft:player.entity_interaction_range",
+                        "amount": 1.2,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "attack_knockback",
+                        "type": "minecraft:generic.attack_knockback",
+                        "amount": 0.8,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      }
+                    ],
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

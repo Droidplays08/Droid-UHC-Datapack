@@ -1,0 +1,45 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "DED",
+      "GTG",
+      "QKQ"
+    ],
+    "key": {
+      "D": {
+        "item": "minecraft:diamond_block"
+      },
+      "E": {
+        "item": "minecraft:ender_eye"
+      },
+      "G": {
+        "item": "minecraft:gold_block"
+      },
+      "Q": {
+        "item": "minecraft:quartz"
+      },
+      "T": {
+        "item": "minecraft:totem_of_undying"
+      },
+      "K": {
+        "item": "minecraft:nether_star"
+      }
+    },
+    "result": {
+      "id": "minecraft:brick",
+      "components": {
+        "minecraft:rarity": "epic",
+        "minecraft:custom_data": {"random_legendary":true},
+        "minecraft:custom_model_data": 801017,
+        "minecraft:item_name": "[{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true},{\"text\":\" Random Legendary \",\"color\":\"gold\",\"obfuscated\":false},{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true}]",
+        "minecraft:lore": [
+          "{\"text\":\"Craft to recieve a Random Legendary.\",\"color\":\"gray\",\"italic\":false}",
+          "{\"text\":\" \"}",
+          "{\"text\":\"Legendary Weapon\",\"color\":\"gold\",\"italic\":false,\"bold\":true}",
+          "{\"text\":\" \"}"
+        ],
+        "minecraft:hide_additional_tooltip": {}
+      }
+    }
+  }
+  

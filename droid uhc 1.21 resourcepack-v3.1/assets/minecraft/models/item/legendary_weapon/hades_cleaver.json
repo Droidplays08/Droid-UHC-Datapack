@@ -1,0 +1,137 @@
+{
+	"texture_size": [64, 64],
+	"textures": {
+		"5": "minecraft:item/legendary_weapon/hades_cleaver",
+		"particle": "minecraft:item/legendary_weapon/hades_cleaver"
+	},
+	"elements": [
+		{
+			"from": [6, -13, 7],
+			"to": [8, -5, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7, -13, 7]},
+			"faces": {
+				"north": {"uv": [7, 4, 7.5, 6], "texture": "#5"},
+				"east": {"uv": [7, 6, 7.5, 8], "texture": "#5"},
+				"south": {"uv": [7.5, 4, 8, 6], "texture": "#5"},
+				"west": {"uv": [7.5, 6, 8, 8], "texture": "#5"},
+				"up": {"uv": [7.5, 8.5, 7, 8], "texture": "#5"},
+				"down": {"uv": [8.5, 7, 8, 7.5], "texture": "#5"}
+			}
+		},
+		{
+			"from": [5, -15, 6],
+			"to": [9, -13, 10],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, -15, 7]},
+			"faces": {
+				"north": {"uv": [8, 4, 9, 4.5], "texture": "#5"},
+				"east": {"uv": [8, 4.5, 9, 5], "texture": "#5"},
+				"south": {"uv": [8, 5, 9, 5.5], "texture": "#5"},
+				"west": {"uv": [8, 5.5, 9, 6], "texture": "#5"},
+				"up": {"uv": [9, 1, 8, 0], "texture": "#5"},
+				"down": {"uv": [9, 1, 8, 2], "texture": "#5"}
+			}
+		},
+		{
+			"from": [6, -16, 7],
+			"to": [8, -15, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, -16, 7]},
+			"faces": {
+				"north": {"uv": [8, 8, 8.5, 8.25], "texture": "#5"},
+				"east": {"uv": [8, 8.25, 8.5, 8.5], "texture": "#5"},
+				"south": {"uv": [8.5, 6, 9, 6.25], "texture": "#5"},
+				"west": {"uv": [8.5, 6.25, 9, 6.5], "texture": "#5"},
+				"up": {"uv": [8, 8.5, 7.5, 8], "texture": "#5"},
+				"down": {"uv": [8.5, 7.5, 8, 8], "texture": "#5"}
+			}
+		},
+		{
+			"from": [1, -5, 5],
+			"to": [13, -3, 11],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, -5, 7]},
+			"faces": {
+				"north": {"uv": [7, 3, 10, 3.5], "texture": "#5"},
+				"east": {"uv": [8, 2, 9.5, 2.5], "texture": "#5"},
+				"south": {"uv": [7, 3.5, 10, 4], "texture": "#5"},
+				"west": {"uv": [8, 2.5, 9.5, 3], "texture": "#5"},
+				"up": {"uv": [8, 1.5, 5, 0], "texture": "#5"},
+				"down": {"uv": [8, 1.5, 5, 3], "texture": "#5"}
+			}
+		},
+		{
+			"from": [2, -3, 8],
+			"to": [12, 32, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, -3, 7]},
+			"faces": {
+				"north": {"uv": [0, 0, 2.5, 8.75], "texture": "#5"},
+				"east": {"uv": [0, 0, 0, 8.75], "texture": "#5"},
+				"south": {"uv": [2.5, 0, 5, 8.75], "texture": "#5"},
+				"west": {"uv": [0, 0, 0, 8.75], "texture": "#5"},
+				"up": {"uv": [2.5, 0, 0, 0], "texture": "#5"},
+				"down": {"uv": [2.5, 0, 0, 0], "texture": "#5"}
+			}
+		},
+		{
+			"from": [6, -3, 7],
+			"to": [8, 23, 9],
+			"rotation": {"angle": 0, "axis": "y", "origin": [6, -3, 7]},
+			"faces": {
+				"north": {"uv": [5, 3, 5.5, 9.5], "texture": "#5"},
+				"east": {"uv": [5.5, 3, 6, 9.5], "texture": "#5"},
+				"south": {"uv": [6, 3, 6.5, 9.5], "texture": "#5"},
+				"west": {"uv": [6.5, 3, 7, 9.5], "texture": "#5"},
+				"up": {"uv": [8.5, 6.5, 8, 6], "texture": "#5"},
+				"down": {"uv": [8.5, 6.5, 8, 7], "texture": "#5"}
+			}
+		}
+	],
+	"gui_light": "front",
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -86, -18],
+			"translation": [0, 10, 6],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 86, 18],
+			"translation": [0, 10, 6],
+			"scale": [0.7, 0.7, 0.7]
+		},
+		"firstperson_righthand": {
+			"rotation": [9, -73, 16],
+			"translation": [-0.25, 7, 2.75],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"firstperson_lefthand": {
+			"rotation": [-9, 81, -16],
+			"translation": [-0.25, 7, 2.75],
+			"scale": [0.3, 0.3, 0.3]
+		},
+		"ground": {
+			"rotation": [-56, -50, -16],
+			"translation": [0, 17, -1.5]
+		},
+		"gui": {
+			"rotation": [0, 180, 45],
+			"translation": [0, -0.25, 0],
+			"scale": [0.4, 0.4, 0.4]
+		},
+		"head": {
+			"rotation": [0, -90, 42],
+			"translation": [0, 14, -13],
+			"scale": [0.8, 0.8, 0.8]
+		},
+		"fixed": {
+			"rotation": [0, 0, 47],
+			"translation": [0, -0.25, -0.25],
+			"scale": [0.5, 0.5, 0.5]
+		}
+	},
+	"groups": [
+		{
+			"name": "cleaver",
+			"origin": [6, -3, 7],
+			"color": 0,
+			"children": [0, 1, 2, 3, 4, 5]
+		}
+	]
+}

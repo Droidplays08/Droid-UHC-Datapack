@@ -1,0 +1,50 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_cat",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "rare",
+                  "!minecraft:jukebox_playable": {},
+                  "minecraft:custom_data": {"scroll_of_hermes":true},
+                  "minecraft:custom_model_data": 801084,
+                  "minecraft:item_name": "{\"text\":\"♦ Accessory: Scroll of Hermes ♦\",\"color\":\"gold\"}",
+                  "minecraft:lore": [
+                    "[{\"text\":\"Slot: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Offhand\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Step Height: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+0.5\",\"color\":\"red\",\"italic\":false}]",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"With knowledge from Hermes,\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"maneuvering over blocks is\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"simple task.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Rare Accessory\",\"color\":\"light_purple\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "step_height",
+                        "type": "minecraft:generic.step_height",
+                        "amount": 0.5,
+                        "operation": "add_value",
+                        "slot": "offhand"
+                      }
+                    ],
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,37 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_cat",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "rare",
+                  "!minecraft:jukebox_playable": {},
+                  "minecraft:custom_data": {"dragon_tooth":true},
+                  "minecraft:custom_model_data": 801080,
+                  "minecraft:item_name": "{\"text\":\"♦ Accessory: Dragon Tooth ♦\",\"color\":\"gold\"}",
+                  "minecraft:lore": [
+                    "[{\"text\":\"Slot: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Offhand\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+1\",\"color\":\"red\",\"italic\":false}]",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"A Raser Sharp Tooth from\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"the Mouth of the Dragon.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Rare Accessory\",\"color\":\"aqua\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

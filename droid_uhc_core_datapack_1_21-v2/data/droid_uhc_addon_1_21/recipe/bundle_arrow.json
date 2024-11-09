@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "FFF",
+      "SSS",
+      "XXX"
+    ],
+    "key": {
+      "F": {
+        "item": "minecraft:flint"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      },
+      "X": {
+        "item": "minecraft:feather"
+      }
+    },
+    "result": {
+      "id": "minecraft:arrow",
+      "count": 20
+    }
+  }
+  

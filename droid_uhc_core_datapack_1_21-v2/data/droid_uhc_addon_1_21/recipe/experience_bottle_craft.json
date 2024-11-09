@@ -1,0 +1,21 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "LLL",
+      "LBL",
+      "LLL"
+    ],
+    "key": {
+      "L": {
+        "item": "minecraft:lapis_lazuli"
+      },
+      "B": {
+        "item": "minecraft:glass_bottle"
+      }
+    },
+    "result": {
+      "id": "minecraft:experience_bottle",
+      "count": 4
+    }
+  }
+  

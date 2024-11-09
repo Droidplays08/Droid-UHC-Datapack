@@ -1,0 +1,41 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_cat",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "rare",
+                  "!minecraft:jukebox_playable": {},
+                  "minecraft:custom_data": {"farmer_hoe":true},
+                  "minecraft:custom_model_data": 801092,
+                  "minecraft:item_name": "{\"text\":\"♦ Accessory: Farmer's Hoe ♦\",\"color\":\"gold\"}",
+                  "minecraft:lore": [
+                    "[{\"text\":\"Slot: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Offhand\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Random Crop: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Per Min\",\"color\":\"red\",\"italic\":false}]",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Wonderful Crops delivered\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"by a hard working farmer.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"A random crop loot will be\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"given for every minute this\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"accessory is held.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Epic Accessory\",\"color\":\"light_purple\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

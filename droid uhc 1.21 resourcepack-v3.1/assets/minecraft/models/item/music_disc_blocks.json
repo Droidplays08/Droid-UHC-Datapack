@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:item/template_music_disc",
+  "textures": {
+    "layer0": "minecraft:item/music_disc_blocks"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 801030
+      },
+      "model": "minecraft:item/default_glider/default_glider_aqua"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801031
+      },
+      "model": "minecraft:item/default_glider/default_glider_leaf"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801032
+      },
+      "model": "minecraft:item/default_glider/default_glider_cloud"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801033
+      },
+      "model": "minecraft:item/default_glider/default_glider_dragon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801034
+      },
+      "model": "minecraft:item/default_glider/default_glider_plane"
+    }
+  ]
+}

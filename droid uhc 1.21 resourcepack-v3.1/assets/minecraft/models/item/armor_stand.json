@@ -1,0 +1,21 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/armor_stand"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 801052
+        },
+        "model": "minecraft:item/special_item/nether_delivery"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 801072
+        },
+        "model": "minecraft:item/recipe_ui/recipe_book"
+      }
+    ]
+  }
+  

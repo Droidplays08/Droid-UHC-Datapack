@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+      "layer0": "minecraft:item/stone_sword"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 801015
+        },
+        "model": "minecraft:item/legendary_weapon/mercury_dagger"
+      }
+    ]
+  }
+  

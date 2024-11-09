@@ -1,0 +1,39 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_cat",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "rare",
+                  "!minecraft:jukebox_playable": {},
+                  "minecraft:custom_data": {"longreach_gauntlet":true},
+                  "minecraft:custom_model_data": 801086,
+                  "minecraft:item_name": "{\"text\":\"♦ Accessory: Longreach Gauntlet ♦\",\"color\":\"gold\"}",
+                  "minecraft:lore": [
+                    "[{\"text\":\"Slot: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Offhand\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Reach: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+1\",\"color\":\"red\",\"italic\":false}]",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"A Gauntlet that extends\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"the User's Reach, allowing\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"them to hit entity and\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"break blocks further.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Epic Accessory\",\"color\":\"light_purple\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

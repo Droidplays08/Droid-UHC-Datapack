@@ -1,0 +1,4 @@
+team add nopvp
+team modify nopvp friendlyFire false
+team modify nopvp collisionRule pushOtherTeams
+execute as @a run team join nopvp

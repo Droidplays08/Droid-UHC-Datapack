@@ -1,0 +1,26 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+	  {
+		"weight": 2,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "droid_uhc_terrain:desert/desert1",
+		  "override_liquid_settings": "ignore_waterlogging",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 2,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "droid_uhc_terrain:desert/desert2",
+		  "override_liquid_settings": "ignore_waterlogging",
+		  "processors": "minecraft:empty"
+		}
+	  }
+	]
+  }
+  

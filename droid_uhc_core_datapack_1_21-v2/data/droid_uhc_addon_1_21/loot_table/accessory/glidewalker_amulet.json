@@ -1,0 +1,50 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_cat",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "rare",
+                  "!minecraft:jukebox_playable": {},
+                  "minecraft:custom_data": {"glidewalker_amulet":true},
+                  "minecraft:custom_model_data": 801090,
+                  "minecraft:item_name": "{\"text\":\"♦ Accessory: Glidewalker Amulet ♦\",\"color\":\"gold\"}",
+                  "minecraft:lore": [
+                    "[{\"text\":\"Slot: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Offhand\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Safe Fall Distance: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+5\",\"color\":\"red\",\"italic\":false}]",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Crafted by skybound nomads,\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"grants its wearer the ability\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"to travel across great heights.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Epic Accessory\",\"color\":\"light_purple\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "safe_fall_distance",
+                        "type": "minecraft:generic.safe_fall_distance",
+                        "amount": 5,
+                        "operation": "add_value",
+                        "slot": "offhand"
+                      }
+                    ],
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

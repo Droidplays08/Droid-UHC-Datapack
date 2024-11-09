@@ -1,0 +1,11 @@
+{
+    "victory_music": {
+        "category": "master",
+        "sounds": [
+            "victory_music/truce_no_more",
+            "victory_music/knights_templar",
+            "victory_music/skilled_in_the_arts",
+            "victory_music/to_the_end_of_then_earth"
+        ]
+    }
+}

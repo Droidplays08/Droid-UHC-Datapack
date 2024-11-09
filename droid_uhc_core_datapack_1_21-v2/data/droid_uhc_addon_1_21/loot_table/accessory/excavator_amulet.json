@@ -1,0 +1,51 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_cat",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "rare",
+                  "!minecraft:jukebox_playable": {},
+                  "minecraft:custom_data": {"excavator_amulet":true},
+                  "minecraft:custom_model_data": 801088,
+                  "minecraft:item_name": "{\"text\":\"♦ Accessory: Excavator's Amulet ♦\",\"color\":\"gold\"}",
+                  "minecraft:lore": [
+                    "[{\"text\":\"Slot: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Offhand\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Mining Speed: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+0.5\",\"color\":\"red\",\"italic\":false}]",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"A Talisman of efficiency.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"A Miner once witness instant\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"disappearing rock when the\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"amulet is worn.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Rare Accessory\",\"color\":\"aqua\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "block_breaking_speed",
+                        "type": "minecraft:player.block_break_speed",
+                        "amount": 0.5,
+                        "operation": "add_value",
+                        "slot": "offhand"
+                      }
+                    ],
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

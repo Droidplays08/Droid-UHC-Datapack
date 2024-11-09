@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "GGG",
+      "GGG",
+      "GGG"
+    ],
+    "key": {
+      "G": {
+        "item": "minecraft:gold_nugget"
+      }
+    },
+    "result": {
+      "id": "minecraft:gold_ingot",
+      "components": {
+        "minecraft:custom_model_data": 801100
+      }
+    }
+  }
+  

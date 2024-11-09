@@ -1,0 +1,9 @@
+scoreboard players reset @s frosted_spear_minion_cd
+title @s actionbar {"text":"Using Frosted Spear - Minion!","color":"gold"}
+
+tag @s add using_frosted_spear_minion
+team join frosted_spear_minion
+
+summon zombie ~ ~ ~ {Silent:1b,IsBaby:1,CustomName:'[{"text":"Frosted Minion","color":"aqua"}]',Health:20,PersistenceRequired:1b,Tags:["time_lived","frosted_spear_minion"],Team:frosted_spear_minion,active_effects:[{id:fire_resistance,duration:10000,amplifier:0,show_particles:0b}],ArmorItems:[{id:leather_boots,components:{dyed_color:52479,trim:{material:"minecraft:quartz",pattern:"minecraft:shaper"}},count:1},{id:leather_leggings,components:{dyed_color:52479,trim:{material:"minecraft:quartz",pattern:"minecraft:shaper"}},count:1},{id:leather_chestplate,components:{dyed_color:52479,trim:{material:"minecraft:quartz",pattern:"minecraft:shaper"}},count:1},{id:packed_ice,count:1}],ArmorDropChances:[0f,0f,0f,0f],attributes:[{id:"generic.max_health",base:20f},{id:"generic.scale",base:1.5f}]}
+summon zombie ~ ~ ~ {Silent:1b,IsBaby:1,CustomName:'[{"text":"Frosted Minion","color":"aqua"}]',Health:20,PersistenceRequired:1b,Tags:["time_lived","frosted_spear_minion"],Team:frosted_spear_minion,active_effects:[{id:fire_resistance,duration:10000,amplifier:0,show_particles:0b}],ArmorItems:[{id:leather_boots,components:{dyed_color:52479,trim:{material:"minecraft:quartz",pattern:"minecraft:shaper"}},count:1},{id:leather_leggings,components:{dyed_color:52479,trim:{material:"minecraft:quartz",pattern:"minecraft:shaper"}},count:1},{id:leather_chestplate,components:{dyed_color:52479,trim:{material:"minecraft:quartz",pattern:"minecraft:shaper"}},count:1},{id:packed_ice,count:1}],ArmorDropChances:[0f,0f,0f,0f],attributes:[{id:"generic.max_health",base:20f},{id:"generic.scale",base:1.5f}]}
+execute at @s run playsound minecraft:block.glass.break master @a ~ ~ ~ 10

@@ -1,0 +1,44 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "III",
+      "CSC",
+      " S "
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:raw_iron"
+      },
+      "C": {
+        "item": "minecraft:coal"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "id": "minecraft:iron_pickaxe",
+      "components": {
+        "minecraft:item_name": "{\"text\":\"Miner Pickaxe\",\"color\":\"aqua\"}",
+        "minecraft:rarity": "rare",
+        "minecraft:custom_model_data": 801006,
+        "minecraft:tool": {
+          "rules": [
+            {
+              "blocks": "#minecraft:mineable/pickaxe",
+              "speed": 40,
+              "correct_for_drops": true
+            }
+          ]
+        },
+        "minecraft:enchantments": {
+          "minecraft:unbreaking": 3
+        },
+        "minecraft:lore": [
+            "{\"text\":\"A refined pickaxe that contains\",\"color\":\"gray\",\"italic\":false}",
+            "{\"text\":\"the spirit as a miner.\",\"color\":\"gray\",\"italic\":false}"
+          ]
+      }
+    }
+  }
+  

@@ -1,0 +1,32 @@
+{
+	"structures": [
+	  {
+		"structure": "droid_uhc_terrain:small_object/oak_log_stack",
+		"weight": 3
+	  },
+	  {
+		"structure": "droid_uhc_terrain:small_object/rock",
+		"weight": 3
+	  },
+	  {
+		"structure": "droid_uhc_terrain:small_object/sugar_cane",
+		"weight": 1
+	  },
+	  {
+		"structure": "droid_uhc_terrain:small_object/farm",
+		"weight": 1
+	  },
+	  {
+		"structure": "droid_uhc_terrain:small_object/gravel",
+		"weight": 2
+	  }
+	],
+	"placement": {
+	  "type": "minecraft:random_spread",
+	  "salt": 8010003,
+	  "spread_type": "linear",
+	  "spacing": 4,
+	  "separation": 2
+	}
+  }
+  

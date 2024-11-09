@@ -1,0 +1,38 @@
+{
+  "parent": "minecraft:item/template_music_disc",
+  "textures": {
+    "layer0": "minecraft:item/music_disc_11"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 801009
+      },
+      "model": "minecraft:item/default_helmet/default_helmet"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801020
+      },
+      "model": "minecraft:item/default_helmet/default_helmet_cone"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801021
+      },
+      "model": "minecraft:item/default_helmet/default_helmet_tophat"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801022
+      },
+      "model": "minecraft:item/default_helmet/default_helmet_dragon"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801023
+      },
+      "model": "minecraft:item/default_helmet/default_helmet_rabbit"
+    }
+  ]
+}

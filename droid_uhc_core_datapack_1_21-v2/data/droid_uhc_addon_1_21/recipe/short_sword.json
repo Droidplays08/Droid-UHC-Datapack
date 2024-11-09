@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CCC",
+      "CSC",
+      "CCC"
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:copper_ingot"
+      },
+      "S": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "result": {
+      "id": "minecraft:iron_sword",
+      "components": {
+        "minecraft:rarity": "rare",
+        "minecraft:custom_model_data": 801008,
+        "minecraft:item_name": "{\"text\":\"Short Sword\",\"color\":\"aqua\"}",
+        "minecraft:enchantments": {
+          "minecraft:sharpness": 1
+        },
+        "minecraft:lore": [
+          "{\"text\":\"A slightly better version of\",\"color\":\"gray\",\"italic\":false}",
+          "{\"text\":\"normal sword with higher damage.\",\"color\":\"gray\",\"italic\":false}"
+        ]
+      }
+    }
+  }
+  

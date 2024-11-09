@@ -1,0 +1,32 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "CCC",
+      "CBC",
+      "CCC"
+    ],
+    "key": {
+      "C": {
+        "item": "minecraft:copper_ingot"
+      },
+      "B": {
+        "item": "minecraft:bow"
+      }
+    },
+    "result": {
+      "id": "minecraft:bow",
+      "components": {
+        "minecraft:rarity": "rare",
+        "minecraft:custom_model_data": 801007,
+        "minecraft:item_name": "{\"text\":\"Short Bow\",\"color\":\"aqua\"}",
+        "minecraft:enchantments": {
+          "minecraft:power": 1
+        },
+        "minecraft:lore": [
+          "{\"text\":\"A slightly better version of\",\"color\":\"gray\",\"italic\":false}",
+          "{\"text\":\"normal bow with higher damage.\",\"color\":\"gray\",\"italic\":false}"
+        ]
+      }
+    }
+  }
+  

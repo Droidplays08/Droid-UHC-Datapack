@@ -1,0 +1,32 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "RRR",
+    "RKR",
+    "RRR"
+  ],
+  "key": {
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "K": {
+      "item": "minecraft:nether_star"
+    }
+  },
+  "result": {
+    "id": "minecraft:chest",
+    "count": 1,
+    "components": {
+      "minecraft:lore": [
+        "{\"text\":\"Craft to Recieve Random Item.\",\"color\":\"gray\",\"italic\":false}",
+        "{\"text\":\"Whether the item is worth a\",\"color\":\"gray\",\"italic\":false}",
+        "{\"text\":\"kill token is your decision.\",\"color\":\"gray\",\"italic\":false}",
+        "{\"text\":\" \"}"
+      ],
+      "minecraft:custom_model_data": 801001,
+      "minecraft:item_name": "{\"text\":\"Pandora's Bounty\",\"color\":\"gold\"}",
+      "minecraft:rarity": "rare",
+      "minecraft:custom_data": {"fake_pandora_bounty":true}
+    }
+  }
+}

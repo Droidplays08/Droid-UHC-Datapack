@@ -1,0 +1,1 @@
+give @s minecraft:chest[minecraft:container_loot={loot_table:"droid_uhc_addon_1_21:block/random_legendary_loot_table"},minecraft:rarity=epic,minecraft:item_name='[{"text":"Random Legendary","color":"gold"}]']

@@ -1,0 +1,26 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_sword"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 801013
+      },
+      "model": "minecraft:item/legendary_weapon/divine_master_sword"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801040
+      },
+      "model": "minecraft:item/legendary_weapon/ender_blade"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801045
+      },
+      "model": "minecraft:item/legendary_weapon/pillage_broadsword"
+    }
+  ]
+}

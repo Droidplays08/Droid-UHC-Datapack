@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    " G ",
+    "GTG",
+    " G "
+  ],
+  "key": {
+    "G": {
+      "item": "minecraft:gold_ingot"
+    },
+    "T": {
+      "item": "minecraft:ghast_tear"
+    }
+  },
+  "result": {
+    "id": "minecraft:totem_of_undying",
+    "components": {
+      "minecraft:lore": [
+        "{\"text\":\"A accessory that gives\",\"color\":\"gray\",\"italic\":false}",
+        "{\"text\":\"a second chance in life.\",\"color\":\"gray\",\"italic\":false}"
+      ]
+    },
+    "count": 1
+  }
+}

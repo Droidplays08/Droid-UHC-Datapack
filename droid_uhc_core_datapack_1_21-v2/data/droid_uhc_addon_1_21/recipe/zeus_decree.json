@@ -1,0 +1,47 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "XXX",
+    "S#B",
+    "LTL"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:experience_bottle"
+    },
+    "S": {
+      "item": "minecraft:diamond_sword"
+    },
+    "#": {
+      "item": "minecraft:writable_book"
+    },
+    "B": {
+      "item": "minecraft:bow"
+    },
+    "L": {
+      "item": "minecraft:lava_bucket"
+    },
+    "T": {
+      "item": "minecraft:trident"
+    }
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "minecraft:rarity": "epic",
+      "minecraft:item_name": "{\"text\":\"Zeus's Decree\",\"color\":\"gold\"}",
+      "minecraft:custom_model_data": 801002,
+      "minecraft:stored_enchantments": {
+        "minecraft:protection": 4,
+        "minecraft:sharpness": 3,
+        "minecraft:fire_aspect": 2,
+        "minecraft:power": 3,
+        "minecraft:quick_charge": 3,
+        "minecraft:multishot": 1,
+        "minecraft:punch": 1,
+        "minecraft:flame": 1
+      }
+    }
+  }
+}

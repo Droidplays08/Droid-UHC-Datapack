@@ -1,0 +1,98 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "DOD",
+      "IKI",
+      " B "
+    ],
+    "key": {
+      "D": {
+        "item": "minecraft:diamond_block"
+      },
+      "O": {
+        "item": "minecraft:obsidian"
+      },
+      "I": {
+        "item": "minecraft:iron_block"
+      },
+      "K": {
+        "item": "minecraft:nether_star"
+      },
+      "B": {
+        "item": "minecraft:blaze_rod"
+      }
+    },
+    "result": {
+      "id": "minecraft:netherite_axe",
+      "components": {
+        "minecraft:rarity": "epic",
+        "minecraft:item_name": "[{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true},{\"text\":\" Giant's Battle Axe \",\"color\":\"gold\",\"obfuscated\":false},{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true}]",
+        "minecraft:unbreakable": {
+          "show_in_tooltip": false
+        },
+        "minecraft:tool": {
+          "rules": [
+            {
+              "blocks": "#minecraft:mineable/axe",
+              "speed": 40,
+              "correct_for_drops": true
+            }
+          ]
+        },
+        "minecraft:attribute_modifiers": {
+          "modifiers": [
+            {
+              "id": "attack_speed",
+              "type": "minecraft:generic.attack_speed",
+              "amount": -3.2,
+              "operation": "add_value",
+              "slot": "mainhand"
+            },
+            {
+              "id": "attack_damage",
+              "type": "minecraft:generic.attack_damage",
+              "amount": 11,
+              "operation": "add_value",
+              "slot": "mainhand"
+            }
+          ],
+          "show_in_tooltip": false
+        },
+        "minecraft:custom_model_data": 801010,
+        "minecraft:food": {
+          "nutrition": 0,
+          "saturation": 0,
+          "can_always_eat": true,
+          "eat_seconds": 100000
+        },
+        "minecraft:lore": [
+          "[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"12\",\"color\":\"red\",\"italic\":false}]",
+          "[{\"text\":\"Attack Speed: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"0.8\",\"color\":\"red\",\"italic\":false}]",
+          "[{\"text\":\"Tool: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Axe\",\"color\":\"red\",\"italic\":false}]",
+          "{\"text\":\" \"}",
+          "{\"text\":\"An Axe passed down from ancient\",\"color\":\"gray\",\"italic\":false}",
+          "{\"text\":\"civilisation of Giants.\",\"color\":\"gray\",\"italic\":false}",
+          "{\"text\":\" \"}",
+          "{\"text\":\"Ability: Titan's Fury\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}",
+          "[{\"text\":\"Right Click\",\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\" to turn into a\",\"color\":\"gray\",\"italic\":false,\"bold\":false}]",
+          "{\"text\":\"Giant. While being a Giant:\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+          "{\"text\":\"- Extra Absorption Hearts\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+          "{\"text\":\"- Increased Damage & Defence\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+          "{\"text\":\"- Increased Speed\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+          "{\"text\":\"- Increased Jump & Step Height\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+          "{\"text\":\"- STEP on Entities or other\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+          "{\"text\":\"players to damage them.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+          "{\"text\":\"This ability last for\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+          "{\"text\":\"10 seconds.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+          "{\"text\":\"cooldown 100s\",\"color\":\"dark_gray\",\"italic\":false}",
+          "{\"text\":\" \"}",
+          "{\"text\":\"Legendary Weapon\",\"color\":\"gold\",\"italic\":false,\"bold\":true}",
+          "{\"text\":\" \"}"
+        ],
+        "minecraft:custom_data": {"fake_giant_battle_axe":true},
+        "minecraft:enchantment_glint_override": true,
+        "minecraft:hide_additional_tooltip": {}
+      }
+    }
+  }
+  

@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "item": "minecraft:netherite_helmet"
+    }
+  ],
+  "result": {
+    "id": "minecraft:nether_star",
+    "count": 2,
+    "components": {
+      "minecraft:rarity": "epic",
+      "minecraft:item_name": "{\"text\":\"Kill Token\",\"color\":\"red\"}",
+      "minecraft:custom_model_data": 801003
+    }
+  }
+}

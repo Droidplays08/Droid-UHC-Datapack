@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:item/generated",
+    "textures": {
+      "layer0": "minecraft:item/turtle_scute"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 801051
+        },
+        "model": "minecraft:item/special_item/void_shard"
+      }
+    ]
+  }
+  

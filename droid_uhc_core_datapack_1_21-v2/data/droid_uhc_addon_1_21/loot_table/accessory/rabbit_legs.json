@@ -1,0 +1,57 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_cat",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "rare",
+                  "!minecraft:jukebox_playable": {},
+                  "minecraft:custom_data": {"rabbit_legs":true},
+                  "minecraft:custom_model_data": 801082,
+                  "minecraft:item_name": "{\"text\":\"♦ Accessory: Rabbit Legs ♦\",\"color\":\"gold\"}",
+                  "minecraft:lore": [
+                    "[{\"text\":\"Slot: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Offhand\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Jump Height: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+1\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Safe Fall Distance: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"+1\",\"color\":\"red\",\"italic\":false}]",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"An Accessory stored with\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"the strength of a rabbit.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Rare Accessory\",\"color\":\"aqua\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "jump_strength",
+                        "type": "minecraft:generic.jump_strength",
+                        "amount": 0.2,
+                        "operation": "add_value",
+                        "slot": "offhand"
+                      },
+                      {
+                        "id": "safe_fall_distance",
+                        "type": "minecraft:generic.safe_fall_distance",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "offhand"
+                      }
+                    ],
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

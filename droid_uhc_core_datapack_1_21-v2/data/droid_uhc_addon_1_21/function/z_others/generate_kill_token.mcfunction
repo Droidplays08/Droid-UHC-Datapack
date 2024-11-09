@@ -1,0 +1,1 @@
+summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:nether_star",count:2b,components:{rarity:epic,item_name:'[{"text":"Kill Token","color":"red"}]',custom_model_data:801003}}}

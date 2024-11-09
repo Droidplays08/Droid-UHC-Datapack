@@ -1,0 +1,1 @@
+execute at @s run playsound minecraft:block.amethyst_block.break master @s ~ ~ ~ 100

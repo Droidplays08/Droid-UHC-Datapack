@@ -1,0 +1,15 @@
+{
+    "parent": "minecraft:item/handheld",
+    "textures": {
+      "layer0": "minecraft:item/diamond_sword"
+    },
+    "overrides": [
+      {
+        "predicate": {
+          "custom_model_data": 801041
+        },
+        "model": "minecraft:item/legendary_weapon/spider_katana"
+      }
+    ]
+  }
+  

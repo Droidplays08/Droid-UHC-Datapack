@@ -1,0 +1,44 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "IIF",
+    "IS ",
+    " S "
+  ],
+  "key": {
+    "I": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    },
+    "F": {
+      "item": "minecraft:flint"
+    }
+  },
+  "result": {
+    "id": "minecraft:iron_axe",
+    "count": 1,
+    "components": {
+      "minecraft:rarity": "rare",
+      "minecraft:custom_model_data": 801005,
+      "minecraft:item_name": "{\"text\":\"Lumberjack Axe\",\"color\":\"aqua\"}",
+      "minecraft:tool": {
+        "rules": [
+          {
+            "blocks": "#minecraft:mineable/axe",
+            "speed": 50,
+            "correct_for_drops": true
+          }
+        ]
+      },
+      "minecraft:lore": [
+            "{\"text\":\"A refined axe that contains\",\"color\":\"gray\",\"italic\":false}",
+            "{\"text\":\"the spirit as a lumberjack.\",\"color\":\"gray\",\"italic\":false}"
+      ],
+      "minecraft:enchantments": {
+          "minecraft:unbreaking": 3
+      }
+    }
+  }
+}

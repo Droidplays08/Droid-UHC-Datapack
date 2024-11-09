@@ -1,0 +1,76 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+	  {
+		"weight": 1,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "droid_uhc_terrain:small_object/rock1",
+		  "override_liquid_settings": "ignore_waterlogging",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 1,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "droid_uhc_terrain:small_object/rock2",
+		  "override_liquid_settings": "ignore_waterlogging",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 1,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "droid_uhc_terrain:small_object/rock3",
+		  "override_liquid_settings": "ignore_waterlogging",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 1,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "droid_uhc_terrain:small_object/rock4",
+		  "override_liquid_settings": "ignore_waterlogging",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 1,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "droid_uhc_terrain:small_object/rock5",
+		  "override_liquid_settings": "ignore_waterlogging",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 1,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "droid_uhc_terrain:small_object/rock6",
+		  "override_liquid_settings": "ignore_waterlogging",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 1,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "droid_uhc_terrain:small_object/rock7",
+		  "override_liquid_settings": "ignore_waterlogging",
+		  "processors": "minecraft:empty"
+		}
+	  }
+	]
+  }
+  

@@ -1,0 +1,20 @@
+{
+  "parent": "minecraft:item/handheld",
+  "textures": {
+    "layer0": "minecraft:item/netherite_axe"
+  },
+  "overrides": [
+    {
+      "predicate": {
+        "custom_model_data": 801010
+      },
+      "model": "minecraft:item/legendary_weapon/giant_battle_axe"
+    },
+    {
+      "predicate": {
+        "custom_model_data": 801044
+      },
+      "model": "minecraft:item/legendary_weapon/dragon_halberd"
+    }
+  ]
+}
