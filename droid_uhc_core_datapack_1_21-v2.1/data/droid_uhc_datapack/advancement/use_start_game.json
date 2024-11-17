@@ -1,0 +1,9 @@
+{
+	"criteria": { "use_item": {
+		"trigger": "minecraft:using_item",
+		"conditions": { "item": { "predicates": {
+			"minecraft:custom_data": {"start_game_countdown":true}
+		}}}
+	}},
+	"rewards": { "function": "droid_uhc_datapack:z_abilities/use_start_game" }
+}

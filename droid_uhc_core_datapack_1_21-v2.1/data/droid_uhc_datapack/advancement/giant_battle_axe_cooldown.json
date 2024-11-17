@@ -1,0 +1,6 @@
+{
+	"criteria": { "tick": {
+		"trigger": "minecraft:tick"
+	}},
+	"rewards": { "function": "droid_uhc_datapack:z_abilities/giant_battle_axe_cooldown" }
+}

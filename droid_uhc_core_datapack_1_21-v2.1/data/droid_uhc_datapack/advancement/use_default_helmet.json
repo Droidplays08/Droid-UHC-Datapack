@@ -1,0 +1,9 @@
+{
+	"criteria": { "use_item": {
+		"trigger": "minecraft:using_item",
+		"conditions": { "item": { "predicates": {
+			"minecraft:custom_data": {"default_helmet":true}
+		}}}
+	}},
+	"rewards": { "function": "droid_uhc_datapack:z_abilities/use_default_helmet" }
+}

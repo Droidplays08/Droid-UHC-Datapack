@@ -1,2 +1,0 @@
-team join friendly_mob
-tag @s add friendly_mob

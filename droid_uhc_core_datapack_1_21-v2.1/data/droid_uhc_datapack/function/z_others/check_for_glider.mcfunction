@@ -1,0 +1,1 @@
+execute as @s unless entity @s[nbt={Inventory:[{Slot:103b}]}] run function droid_uhc_datapack:z_wear_default_glider/wear_default_glider_aqua
