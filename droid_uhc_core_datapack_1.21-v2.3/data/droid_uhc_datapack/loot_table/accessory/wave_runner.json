@@ -1,0 +1,39 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_cat",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "rare",
+                  "!minecraft:jukebox_playable": {},
+                  "minecraft:custom_data": {"wave_runner":true},
+                  "minecraft:custom_model_data": 801087,
+                  "minecraft:item_name": "{\"text\":\"♦ Accessory: Wave Runner ♦\",\"color\":\"gold\"}",
+                  "minecraft:lore": [
+                    "[{\"text\":\"Slot: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Offhand\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Effect: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"Dolphin's Grace\",\"color\":\"red\",\"italic\":false}]",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"An Ancient Artifact from\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"Aquatic Civilisation that\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"makes running on water\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"a reality.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Rare Accessory\",\"color\":\"aqua\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

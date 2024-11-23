@@ -1,0 +1,20 @@
+{
+	"structures": [
+	  {
+		"structure": "droid_uhc_datapack:terrain_structure/small_object/iron_deposit",
+		"weight": 1
+	  },
+	  {
+		"structure": "droid_uhc_datapack:terrain_structure/small_object/copper_deposit",
+		"weight": 1
+	  }
+	],
+	"placement": {
+	  "type": "minecraft:random_spread",
+	  "salt": 8010007,
+	  "spread_type": "linear",
+	  "spacing": 1,
+	  "separation": 0
+	}
+  }
+  

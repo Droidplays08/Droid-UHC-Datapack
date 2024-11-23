@@ -1,0 +1,24 @@
+{
+	"structures": [
+	  {
+		"structure": "droid_uhc_datapack:terrain_structure/forest/oak_forest",
+		"weight": 3
+	  },
+	  {
+		"structure": "droid_uhc_datapack:terrain_structure/forest/jungle_forest",
+		"weight": 1
+	  },
+	  {
+		"structure": "droid_uhc_datapack:terrain_structure/forest/cherry_forest",
+		"weight": 2
+	  }
+	],
+	"placement": {
+	  "type": "minecraft:random_spread",
+	  "salt": 8010001,
+	  "spread_type": "linear",
+	  "spacing": 16,
+	  "separation": 10
+	}
+  }
+  

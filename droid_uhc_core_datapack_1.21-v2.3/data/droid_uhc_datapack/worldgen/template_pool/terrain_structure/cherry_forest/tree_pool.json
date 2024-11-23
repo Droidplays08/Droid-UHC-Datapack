@@ -1,0 +1,66 @@
+{
+	"fallback": "minecraft:empty",
+	"elements": [
+	  {
+		"weight": 1,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "droid_uhc_datapack:terrain_structure/tree/cherry_tree/small1",
+		  "override_liquid_settings": "ignore_waterlogging",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 1,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "droid_uhc_datapack:terrain_structure/tree/cherry_tree/small2",
+		  "override_liquid_settings": "ignore_waterlogging",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 1,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "droid_uhc_datapack:terrain_structure/tree/cherry_tree/small3",
+		  "override_liquid_settings": "ignore_waterlogging",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 1,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "droid_uhc_datapack:terrain_structure/tree/cherry_tree/small4",
+		  "override_liquid_settings": "ignore_waterlogging",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 1,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "droid_uhc_datapack:terrain_structure/tree/cherry_tree/small5",
+		  "override_liquid_settings": "ignore_waterlogging",
+		  "processors": "minecraft:empty"
+		}
+	  },
+	  {
+		"weight": 1,
+		"element": {
+		  "element_type": "minecraft:single_pool_element",
+		  "projection": "rigid",
+		  "location": "droid_uhc_datapack:terrain_structure/tree/cherry_tree/small6",
+		  "override_liquid_settings": "ignore_waterlogging",
+		  "processors": "minecraft:empty"
+		}
+	  }
+	]
+  }
+  

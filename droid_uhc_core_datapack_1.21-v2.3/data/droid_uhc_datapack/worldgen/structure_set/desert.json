@@ -1,0 +1,16 @@
+{
+	"structures": [
+	  {
+		"structure": "droid_uhc_datapack:terrain_structure/desert/desert",
+		"weight": 1
+	  }
+	],
+	"placement": {
+	  "type": "minecraft:random_spread",
+	  "salt": 8010005,
+	  "spread_type": "linear",
+	  "spacing": 16,
+	  "separation": 10
+	}
+  }
+  

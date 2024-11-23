@@ -1,0 +1,23 @@
+{
+	"structures": [
+	  {
+		"structure": "droid_uhc_datapack:custom_structure/stone_temple",
+		"weight": 1
+	  },
+	  {
+		"structure": "droid_uhc_datapack:custom_structure/graveyard",
+		"weight": 1
+	  },
+	  {
+		"structure": "droid_uhc_datapack:custom_structure/library",
+		"weight": 1
+	  }
+	],
+	"placement": {
+	  "type": "minecraft:random_spread",
+	  "salt": 8010020,
+	  "spread_type": "linear",
+	  "spacing": 12,
+	  "separation": 6
+	}
+  }
