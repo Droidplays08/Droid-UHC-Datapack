@@ -1,0 +1,52 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_cat",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "epic",
+                  "!minecraft:jukebox_playable": {},
+                  "minecraft:custom_data": {"demo_wind_cannon":true,"demo_item":true},
+                  "minecraft:custom_model_data": 801043,
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:item_name": "[{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true},{\"text\":\" Wind Cannon \",\"color\":\"gold\",\"obfuscated\":false},{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true}]",
+                  "minecraft:lore": [
+                    "{\"text\":\"A cannon with the power to\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"control the wind.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Ability: Wind Dash\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}",
+                    "[{\"text\":\"Right Click\",\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\" to boost yourself\",\"color\":\"gray\",\"italic\":false,\"bold\":false}]",
+                    "{\"text\":\"forward with the power of wind.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"You are adviced not to jump\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"when using ability to increase\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"its effectiveness.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"cooldown 20s\",\"color\":\"dark_gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Ability: Tempest Uplift\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}",
+                    "[{\"text\":\"Shift + Right Click\",\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\" to launch\",\"color\":\"gray\",\"italic\":false,\"bold\":false}]",
+                    "{\"text\":\"3 tornado forward, any enemies\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"in contact will be launched\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"into the sky, dealing large\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"amount of fall damage.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"cooldown 60s\",\"color\":\"dark_gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Legendary Weapon - Demo\",\"color\":\"gold\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\"Demo item abilities do not work!\",\"color\":\"dark_red\",\"italic\":false}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

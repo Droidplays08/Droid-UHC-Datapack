@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:glass",
+              "functions": [
+                {
+                  "function": "minecraft:set_custom_data",
+                  "tag": {
+                    "AS_sand": true
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                      "mainhand": {
+                        "components": {
+                          "minecraft:custom_data": {
+                            "miner_pickaxe": true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:red_sand"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/red_sand"
+}

@@ -1,0 +1,40 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_13",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "rare",
+                  "minecraft:custom_data": {"demo_golden_marshmallow":true,"demo_item":true},
+                  "minecraft:custom_model_data": 801012,
+                  "!minecraft:jukebox_playable": {},
+                  "minecraft:max_stack_size": 64,
+                  "minecraft:item_name": "{\"text\":\"Golden Marshmallow\",\"color\":\"gold\"}",
+                  "minecraft:lore": [
+                    "{\"text\":\"A delicious marshmallow\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"can always be a\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"refreshing snack!\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "[{\"text\":\"Right Click\",\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\" to Consume\",\"color\":\"gray\",\"italic\":false,\"bold\":false}]",
+                    "{\"text\":\"and Gain:\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"- Speed II (0:25)\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"- Jump Boost II (0:25)\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"- Strength I (0:10)\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"cooldown 40s\",\"color\":\"dark_gray\",\"italic\":false}",
+                    "{\"text\":\" \"}"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

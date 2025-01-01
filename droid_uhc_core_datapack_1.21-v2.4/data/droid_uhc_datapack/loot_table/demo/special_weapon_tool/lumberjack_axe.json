@@ -1,0 +1,41 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:iron_axe",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "rare",
+                  "minecraft:custom_model_data": 801005,
+                  "minecraft:custom_data": {"demo_lumberjack_axe":true,"demo_item":true},
+                  "minecraft:item_name": "{\"text\":\"Lumberjack Axe\",\"color\":\"aqua\"}",
+                  "minecraft:tool": {
+                    "rules": [
+                      {
+                        "blocks": "#minecraft:mineable/axe",
+                        "speed": 50,
+                        "correct_for_drops": true
+                      }
+                    ]
+                  },
+                  "minecraft:lore": [
+                        "{\"text\":\"A refined axe that contains\",\"color\":\"gray\",\"italic\":false}",
+                        "{\"text\":\"the spirit as a lumberjack.\",\"color\":\"gray\",\"italic\":false}"
+                  ],
+                  "minecraft:enchantments": {
+                      "minecraft:unbreaking": 3
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

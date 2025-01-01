@@ -1,0 +1,35 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:enchanted_book",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "epic",
+                  "minecraft:item_name": "{\"text\":\"Zeus's Decree\",\"color\":\"gold\"}",
+                  "minecraft:custom_model_data": 801002,
+                  "minecraft:custom_data": {"demo_zeus_decree":true,"demo_item":true},
+                  "minecraft:stored_enchantments": {
+                    "minecraft:protection": 4,
+                    "minecraft:sharpness": 3,
+                    "minecraft:fire_aspect": 2,
+                    "minecraft:power": 3,
+                    "minecraft:quick_charge": 3,
+                    "minecraft:multishot": 1,
+                    "minecraft:punch": 1,
+                    "minecraft:flame": 1
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

@@ -1,0 +1,82 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:golden_sword",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "epic",
+                  "minecraft:unbreakable": {
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:custom_model_data": 801011,
+                  "minecraft:custom_data": {"demo_hades_cleaver":true,"demo_item":true},
+                  "minecraft:item_name": "[{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true},{\"text\":\" Hades' Cleaver \",\"color\":\"gold\",\"obfuscated\":false},{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true}]",
+                  "minecraft:lore": [
+                    "[{\"text\":\"Damage: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"9\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Attack Speed: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"1\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Attack Range: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"4\",\"color\":\"red\",\"italic\":false}]",
+                    "[{\"text\":\"Attack Knockback: \",\"color\":\"gray\",\"italic\":false},{\"text\":\"1\",\"color\":\"red\",\"italic\":false}]",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"A Cleaver only suited for the\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"corrupt underworld.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Ability: Underworld Slash\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}",
+                    "[{\"text\":\"Right Click\",\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\" to perform a spin\",\"color\":\"gray\",\"italic\":false,\"bold\":false}]",
+                    "{\"text\":\"attack, damaging all entities\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"within a 5 block radius.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"cooldown 30s\",\"color\":\"dark_gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Legendary Weapon - Demo\",\"color\":\"gold\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\"Demo item abilities do not work!\",\"color\":\"dark_red\",\"italic\":false}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:attribute_modifiers": {
+                    "modifiers": [
+                      {
+                        "id": "attack_knockback",
+                        "type": "minecraft:generic.attack_knockback",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "entity_interaction_range",
+                        "type": "minecraft:player.entity_interaction_range",
+                        "amount": 1,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "attack_speed",
+                        "type": "minecraft:generic.attack_speed",
+                        "amount": -3,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      },
+                      {
+                        "id": "attack_damage",
+                        "type": "minecraft:generic.attack_damage",
+                        "amount": 8,
+                        "operation": "add_value",
+                        "slot": "mainhand"
+                      }
+                    ],
+                    "show_in_tooltip": false
+                  },
+                  "minecraft:enchantment_glint_override": true,
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

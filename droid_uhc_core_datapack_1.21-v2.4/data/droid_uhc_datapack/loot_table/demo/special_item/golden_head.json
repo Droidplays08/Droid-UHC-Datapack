@@ -1,0 +1,41 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:music_disc_far",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "!minecraft:jukebox_playable": {},
+                  "minecraft:rarity": "epic",
+                  "minecraft:max_stack_size": 64,
+                  "minecraft:custom_model_data": 801004,
+                  "minecraft:custom_data": {"demo_golden_head":true,"demo_item":true},
+                  "minecraft:item_name": "{\"text\":\"Golden Head\",\"color\":\"gold\"}",
+                  "minecraft:lore": [
+                    "{\"text\":\"Important Healing item\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"obtain from the soul of\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"other fallen enemies.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "[{\"text\":\"Right Click\",\"color\":\"white\",\"italic\":false,\"bold\":true},{\"text\":\" to Consume\",\"color\":\"gray\",\"italic\":false,\"bold\":false}]",
+                    "{\"text\":\"and Gain:\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"- Regeneration III (0:05)\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"- Absorption II (2:00)\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"- Speed II (0:15)\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"- Refilled Hunger.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+                    "{\"text\":\"cooldown 10s\",\"color\":\"dark_gray\",\"italic\":false}",
+                    "{\"text\":\" \"}"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

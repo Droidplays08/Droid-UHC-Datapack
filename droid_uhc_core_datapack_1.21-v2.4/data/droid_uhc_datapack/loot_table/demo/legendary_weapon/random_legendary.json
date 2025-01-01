@@ -1,0 +1,33 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:brick",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "epic",
+                  "minecraft:custom_data": {"demo_random_legendary":true,"demo_item":true},
+                  "minecraft:custom_model_data": 801017,
+                  "minecraft:item_name": "[{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true},{\"text\":\" Random Legendary \",\"color\":\"gold\",\"obfuscated\":false},{\"text\":\"a\",\"color\":\"gold\",\"obfuscated\":true}]",
+                  "minecraft:lore": [
+                    "{\"text\":\"Craft to recieve a Random Legendary.\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\" \"}",
+                    "{\"text\":\"Legendary Weapon - Demo\",\"color\":\"gold\",\"italic\":false,\"bold\":true}",
+                    "{\"text\":\"Demo item abilities do not work!\",\"color\":\"dark_red\",\"italic\":false}",
+                    "{\"text\":\" \"}"
+                  ],
+                  "minecraft:hide_additional_tooltip": {}
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

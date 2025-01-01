@@ -1,3 +1,0 @@
-execute store success score droid have_place_stronghold2 run place structure stronghold ~ ~ ~
-execute if score droid have_place_stronghold2 matches 1 run place structure stronghold ~ ~ ~
-execute if score droid have_place_stronghold2 matches 1 run kill @s

@@ -1,0 +1,56 @@
+{
+  "type": "minecraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "conditions": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:alternatives",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:copper_block",
+              "functions": [
+                {
+                  "function": "minecraft:set_custom_data",
+                  "tag": {
+                    "AS_copper_block": true
+                  }
+                }
+              ],
+              "conditions": [
+                {
+                  "condition": "minecraft:entity_properties",
+                  "entity": "this",
+                  "predicate": {
+                    "type": "minecraft:player",
+                    "equipment": {
+                      "mainhand": {
+                        "components": {
+                          "minecraft:custom_data": {
+                            "miner_pickaxe": true
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:raw_copper_block"
+            }
+          ]
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "minecraft:blocks/raw_copper_block"
+}

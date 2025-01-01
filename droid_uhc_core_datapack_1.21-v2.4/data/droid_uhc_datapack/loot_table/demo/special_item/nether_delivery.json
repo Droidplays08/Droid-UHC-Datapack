@@ -1,0 +1,32 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:armor_stand",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:custom_model_data": 801052,
+                  "minecraft:custom_data": {"demo_nether_delivery":true,"demo_item":true},
+                  "minecraft:rarity": "rare",
+                  "minecraft:item_name": "{\"text\":\"Nether Delivery\",\"color\":\"red\",\"italic\":false}",
+                  "minecraft:lore": [
+                      "{\"text\":\"Place to summon delivery\",\"color\":\"gray\",\"italic\":false}",
+                      "{\"text\":\"bringing goods from the\",\"color\":\"gray\",\"italic\":false}",
+                      "{\"text\":\"nether, along with some\",\"color\":\"gray\",\"italic\":false}",
+                      "{\"text\":\"suprising delivery staff.\",\"color\":\"gray\",\"italic\":false}",
+                      "{\"text\":\" \"}"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

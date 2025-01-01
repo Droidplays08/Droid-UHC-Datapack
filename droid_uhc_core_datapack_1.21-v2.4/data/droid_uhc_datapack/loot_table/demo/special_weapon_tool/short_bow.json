@@ -1,0 +1,32 @@
+{
+    "pools": [
+      {
+        "rolls": 1,
+        "entries": [
+          {
+            "type": "minecraft:item",
+            "name": "minecraft:bow",
+            "functions": [
+              {
+                "function": "minecraft:set_components",
+                "components": {
+                  "minecraft:rarity": "rare",
+                  "minecraft:custom_model_data": 801007,
+                  "minecraft:custom_data": {"demo_short_bow":true,"demo_item":true},
+                  "minecraft:item_name": "{\"text\":\"Short Bow\",\"color\":\"aqua\"}",
+                  "minecraft:enchantments": {
+                    "minecraft:power": 1
+                  },
+                  "minecraft:lore": [
+                    "{\"text\":\"A slightly better version of\",\"color\":\"gray\",\"italic\":false}",
+                    "{\"text\":\"normal bow with higher damage.\",\"color\":\"gray\",\"italic\":false}"
+                  ]
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

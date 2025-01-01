@@ -1,0 +1,42 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "III",
+      "CSC",
+      " S "
+    ],
+    "key": {
+      "I": {
+        "item": "minecraft:raw_iron"
+      },
+      "C": {
+        "item": "minecraft:coal"
+      },
+      "S": {
+        "item": "minecraft:stick"
+      }
+    },
+    "result": {
+      "id": "minecraft:iron_pickaxe",
+      "components": {
+        "minecraft:item_name": "{\"text\":\"Miner Pickaxe\",\"color\":\"aqua\"}",
+        "minecraft:rarity": "rare",
+        "minecraft:custom_model_data": 801006,
+        "minecraft:custom_data": {"miner_pickaxe":true},
+        "minecraft:enchantments": {
+          "minecraft:unbreaking": 3,
+          "efficiency": 3
+        },
+        "minecraft:lore": [
+            "{\"text\":\"A refined pickaxe that contains\",\"color\":\"gray\",\"italic\":false}",
+            "{\"text\":\"the spirit as a miner.\",\"color\":\"gray\",\"italic\":false}",
+            "{\"text\":\" \"}",
+            "{\"text\":\"Ability: Auto Smelt\",\"color\":\"gold\",\"italic\":false,\"underlined\":true}",
+            "{\"text\":\"Ores and Sand block broke by\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+            "{\"text\":\"this pickaxe will be dropped\",\"color\":\"gray\",\"italic\":false,\"bold\":false}",
+            "{\"text\":\"as its smelted state.\",\"color\":\"gray\",\"italic\":false,\"bold\":false}"
+          ]
+      }
+    }
+  }
+  

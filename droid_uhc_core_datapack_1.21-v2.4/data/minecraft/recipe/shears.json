@@ -1,0 +1,23 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:iron_ingot"
+    }
+  },
+  "pattern": [
+    " #",
+    "# "
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:shears",
+    "components": {
+        "minecraft:lore": [
+            "{\"text\":\"Leave blocks broken with shears\",\"color\":\"gray\",\"italic\":false}",
+            "{\"text\":\"have a chance of dropping apple.\",\"color\":\"gray\",\"italic\":false}"
+          ]
+      }
+  }
+}
